@@ -3,6 +3,8 @@ import java.lang.Math;
 
 import java.lang.Math;
 
+import java.lang.Math;
+
 public class LineProblem {
     public static void main(String[] args) {
         System.out.println("Welcome to Line Comparison Computation Program on Master Branch");
@@ -18,5 +20,16 @@ public class LineProblem {
 
         System.out.println("Are the Lengths equal : "+ d1.equals(d2));
 
+        int check = d1.compareTo(d2);
+        switch (check){
+            case 1 :
+                System.out.println("Line 1 is greater than Line 2");
+                break;
+            case -1 :
+                System.out.println("Line 1 is smaller than Line 2");
+                break;
+            default :
+                System.out.println("Both Lines are equal");
+        }
     }
 }
