@@ -25,7 +25,7 @@ public class LineProblem {
                 System.out.println("Line 1 is smaller than Line 2");
                 break;
             default :
-                System.out.println("Both Lines are equal");
+               		 System.out.println("Both Lines are equal");
         }
     }
 }
